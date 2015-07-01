@@ -3,7 +3,7 @@ package java1_lection5.shape;
 import java.util.*;
 
 public class RandomShapeGenerator {
-	private Random rand = new Random(47);
+	private Random rand = new Random(48);
 
 	public Shape next() {
 		switch (rand.nextInt(3)) {
